@@ -18,8 +18,8 @@ namespace WebApplication1
         public static void Main(string[] args) {
             ClientTest();
             Console.WriteLine("hello world!");
-            Console.ReadKey();
-            //BuildWebHost(args).Run();
+            // Console.ReadLine();
+            BuildWebHost(args).Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) =>

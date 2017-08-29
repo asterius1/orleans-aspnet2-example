@@ -18,7 +18,7 @@ namespace GrainHost
             //var greet2 = hello.GetGreeting().Result;
             //var greet3 = hello.GetGreeting().Result;
             Console.WriteLine("finished");
-            Console.ReadKey();
+            Console.ReadLine();
             
             ShutdownSilo();
         }
